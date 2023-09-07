@@ -46,6 +46,7 @@ const PlayersList = () => {
         <div>
             <h1>List</h1>
             <Link to="/players/addplayer" className="btn btn-success">Add Player</Link>
+            <Link to="/players/status" className="btn btn-success">Player Status</Link>
             <table className="table table-hover">
                 <thead>
                     <tr>
